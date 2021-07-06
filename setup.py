@@ -23,15 +23,15 @@ def find_version(*file_paths):
 
 
 readme = read("README.md")
-VERSION = find_version("", "__init__.py")
+VERSION = find_version("fnet_flax", "__init__.py")
 
 setup(
-    name="",
+    name="fnet_flax",
     version=VERSION,
     author="Saurav Maheshkar",
     author_email="sauravvmaheshkar@gmail.com",
-    url="",
-    description="",
+    url="https://github.com/SauravMaheshkar/FNet-Flax",
+    description="Minimal Flax implementation of FNet: Mixing Tokens with Fourier Transforms",
     long_description_content_type="text/markdown",
     long_description=readme,
     license="MIT",
@@ -42,5 +42,5 @@ setup(
         )
     ),
     zip_safe=True,
-    install_requires=["einops>=0.3", "flax", "jax"],
+    install_requires=["flax", "jax"],
 )
