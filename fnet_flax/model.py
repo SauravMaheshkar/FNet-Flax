@@ -17,6 +17,7 @@ class FeedForward(nn.Module):
         self.fc2 = nn.Dense(features=self.dim)
         self.drop = nn.Dropout(rate=self.dropout_rate)
 
+    @nn.compact
     def __call__(self, x, deterministic=False) -> Array:
 
         out = self.fc1(x)
