@@ -26,7 +26,7 @@ readme = read("README.md")
 VERSION = find_version("fnet_flax", "__init__.py")
 
 setup(
-    name="fnet_flax",
+    name="fnet-flax",
     version=VERSION,
     author="Saurav Maheshkar",
     author_email="sauravvmaheshkar@gmail.com",
