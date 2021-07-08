@@ -13,7 +13,7 @@ pip install fnet-flax
 Or directly from GitHub:
 
 ```sh
-pip install --upgrade git+https://github.com/SauravMaheshkar/FNet-Flax
+pip install --upgrade git+hhttps://github.com/SauravMaheshkar/FNet-Flax.git
 ```
 
 ## Usage
